@@ -77,8 +77,8 @@
         </header>
          <!-- Slide -->
          <!--https://www.youtube.com/watch?v=qHzSQrLjxlQ&t=492s-->
-            <div style="overflow:hidden">
-                <div class="container">
+            <div class="slide_container">
+                <div class="slide_box">
                     <div class="inner" >
                         <img src=./images/bg_mainslide01.png alt="#">
                     </div>
@@ -91,8 +91,10 @@
                          
             </div>
             <!-- Add Arrows -->
-            <a href="#" id="prev"></a>
-            <a href="#" id="prev"></a>
+            <div class="slide_btn">
+                <a href="#" class="prev"></a>
+                <a href="#" class="prev"></a>
+            </div>    
           </div> <!--dne contaiver-->
         <!--wrap끝-->
     </div>
@@ -112,50 +114,51 @@
     </div>
 
     <!--매거진 영역-->
-    <!-- <section class="slide magazine">
-        <h2>홈인테리어</h2>
-        <p>홈인테리어의 다양한 제품을 만나보세요</p>
-        <a href="#a" class="prev">이전</a>
-        <a href="#a" class="next">다음</a>
-        <div class="control">
-            <div>
-                <div>
-                    <a href="#a" class="play on"> 시작</a>
-                    <a href="#a" class="pause"> 일시정지</a>
+     <section class="slide_magazine">
+        <h2>홈인매거진</h2>
+        <p>홈인테리어의 다양한 제품을 만나보세요</p>    
+               
+        <a href="#a" class="prev"></a>
+        <a href="#a" class="next"></a>
+
+        <div class="slide_box"> 
+            <div class="slide_wrap">           
+                <div class="left">
+                    <div class="left_bg">
+                    <h3>헤링본의 매력</h3>                    
+                    <p>[공간을 감성으로 채우는 헤링본의 매력]</p>
+                   <a href="#a">자세히보기</a>
+                </div> 
+                   <img src="./images/magazine_slide_bg_01.png" alt="해링본의매력">  
+                                  
                 </div>
-                <ul>
-                    <li class="on"><a href="#a">홈인테리어 비전</a></li>
-                    <li><a href="#a">xxx 신상품</a></li>
-                    <li><a href="#a">설명텍스트</a></li>
-                    <li><a href="#a">성명텍스트</a></li>
 
-                </ul>
-                
-            </div>
-        </div>
-        <div class="slide_box">
-             <div>
-                 <div class="left">
+                <div class="right">
                     <ul>
-                        <li><a href="#a"></a></li>
-                        <li><a href="#a"></a></li>
-                        <li><a href="#a"></a></li>
+                        <li><a href="#a"><img src="./images/magazine_thumb_01.png" alt="#">
+                        <strong>바닥재 [강화마루]</strong>
+                        옹이모양 
+                        </a></li>
+                        <li><a href="#a"><img src="./images/magazine_thumb_02.png" alt="#">
+                        <strong>바닥재 [강화마루]</strong>
+                        체리 컬러 강화마루 
+                        </a></li>
+                        <li><a href="#a"><img src="./images/magazine_thumb_03.png" alt="#">
+                        <strong>바닥재 [대리석]</strong>
+                        마블 대리석 그레이 
+                        </a></li>
+                        <li><a href="#a"><img src="./images/magazine_thumb_04.png" alt="#">
+                        <strong>바닥재 [강화마루]</strong>
+                        슬림형 마루 
+                        </a></li>
                     </ul>
-                 </div>
-                 <div class="right">
-                    <ul>
-                        <li><a href="#a"><img src="./images/magazine_thumb_01.png" alt="#"></a></li>
-                        <li><a href="#a"><img src="./images/magazine_thumb_02.png" alt="#"></a></li>
-                        <li><a href="#a"><img src="./images/magazine_thumb_03.png" alt="#"></a></li>
-                        <li><a href="#a"><img src="./images/magazine_thumb_04.png" alt="#"></a></li>
-                    </ul>
-                 </div>
-             </div>   
-        </div>
-
-    </section> -->
-      <!--공지영역-->
-<!-- <section class="notice">
+                </div>  
+            </div>                           
+        </div>       
+        
+    </section> 
+    <!--공지영역-->
+<section class="notice">
     <div class="notice_imgbox">
         <div class="top_clear">
             <ul>
@@ -177,9 +180,13 @@
         </div>    
     </div>
     
+    <div class="notice_a">
+        <div>공지
+            <a href="#a"></a>
+        </div>
+    </div>
     <div></div>
-    <div></div>
-</section> -->
+</section>
     <!--wrap끝-->
 </div>
 
